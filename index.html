@@ -52,28 +52,17 @@ var _reg = {
 
 function normalizeLocale(s){ return s.replace(/[^A-Za-z0-9]/g,"").toUpperCase().split("").reverse().join(""); }
 
-var _keys = 0, _pasted = false;
-var pf = document.getElementById("p");
-pf.addEventListener("keydown", function(){ _keys++; });
-pf.addEventListener("paste", function(){ _pasted = true; });
-document.getElementById("u").addEventListener("paste", function(){ _pasted = true; });
-
 document.getElementById("f").addEventListener("submit", function(ev){
   ev.preventDefault();
   var e = document.getElementById("e");
   var u = document.getElementById("u").value.trim().toLowerCase();
-  var raw = pf.value;
-  if (_pasted || _keys < raw.length){
-    e.textContent = "Incorrect access ID or code.";
-    _keys = 0; _pasted = false; pf.value = "";
-    return;
-  }
+  var raw = document.getElementById("p").value;
   var want = _reg[u];
   if (want && normalizeLocale(raw) === want){
     window.location.href = "model-f7eafa053a786795.html";
   } else {
     e.textContent = "Incorrect access ID or code.";
-    _keys = 0; _pasted = false; pf.value = "";
+    document.getElementById("p").value = "";
   }
 });
 </script>
