@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Manage major incidents - Flow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Manage major incidents - Flow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/view-a5a4ab9024d9312de0edce858149b785.png" alt="Manage major incidents - Flow" usemap="#view-a5a4ab9024d9312de0edce858149b785map"/>
+			   <map name="view-a5a4ab9024d9312de0edce858149b785map">
+				          <area shape="rect" coords="177,1159,297,1214" href="../objects/n-74b150fbfbfb3f8f63d9992221adc97e.html" target="element" >
+				          <area shape="rect" coords="177,1043,297,1098" href="../objects/n-169e91cfe6f9478a02fc52182896be2e.html" target="element" >
+				          <area shape="rect" coords="177,926,297,981" href="../objects/n-ae995f73607709d8d4e9938a2f594ace.html" target="element" >
+				          <area shape="rect" coords="70,810,190,865" href="../objects/n-944b128bc97864fac374b9dfd6399129.html" target="element" >
+				          <area shape="rect" coords="70,694,190,749" href="../objects/n-b084b583806bc4df93e42071a668e860.html" target="element" >
+				          <area shape="rect" coords="177,578,297,633" href="../objects/n-37f779329c736d898d68b828e0b74468.html" target="element" >
+				          <area shape="rect" coords="177,461,297,516" href="../objects/n-fe7ae359cb9abd2dcff1114772e95ad0.html" target="element" >
+				          <area shape="rect" coords="75,345,195,400" href="../objects/n-49ed6fe6d946b6267d923437c56c6b35.html" target="element" >
+				          <area shape="rect" coords="75,229,195,284" href="../objects/n-38e0fdc6bedfd2cbd2f14146a11f0b1d.html" target="element" >
+				          <area shape="rect" coords="75,112,195,167" href="../objects/n-8c2d8de6c6984a17cb5c77619ca8edc4.html" target="element" >
+				          <area shape="rect" coords="223,1289,272,1314" href="../objects/n-a4b4770ec92dc4f3a304c313f2156424.html" target="element" >
+				          <area shape="rect" coords="18,475,67,500" href="../objects/n-1ba4484d67bec2dce7186681c84e5ae2.html" target="element" >
+				          <area shape="rect" coords="121,10,170,35" href="../objects/n-372aa5cdf4561061c014cce53f27e66a.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">A major incident is triggered when a critical system outage is reported by a user, prompting the Incident &amp; Service Request Management (ISRM) team to initiate the Manage major incidents process, resulting in a detailed incident report and resolution plan. This report is then communicated to all relevant stakeholders to ensure transparency and coordination during the resolution efforts. 
+
+The Manage major incidents process encompasses the identification, assessment, and resolution of significant disruptions to service operations, ensuring that the organization can restore services in a timely manner. It involves making critical decisions regarding resource allocation and communication strategies while engaging various stakeholders, including IT support teams and business units, to facilitate effective incident management. This process is integral to the Incident &amp; Service Request Management capability, which aims to maintain service continuity and user satisfaction.
+
+This process exists to minimize the impact of major incidents on business operations, thereby safeguarding the organization&#8217;s reputation and operational efficiency. Without it, the organization would face prolonged downtimes, leading to customer dissatisfaction and potential financial losses. The primary output, the incident report and resolution plan, is delivered to consuming parties, ensuring they are informed and prepared for any necessary follow-up actions.
+
+PROCESS STEPS
+1. [Receive major incident trigger]
+   Explanation: Receive &#8220;Major incident criteria and escalation trigger&#8221; from Manage incidents and service requests when a critical system outage is reported by a user.
+   Role: Service Desk Agent
+   Application Service: Incident Form
+   Application: ITSM Platform
+
+2. [Assess incident impact and urgency]
+   Explanation: Assess the impact and urgency of the incident, involving IT support teams and business units to determine severity.
+   Role: Major Incident Manager
+   Application Service: Assessment Dashboard
+   Application: ITSM Platform
+
+3. [Confirm major incident status]
+   Explanation: Decide if the incident meets the major incident criteria based on the assessment.
+   Role: Major Incident Manager
+   Application Service: Assessment Dashboard
+   Application: ITSM Platform
+
+4. [Assemble response team]
+   Explanation: Assemble a response team including IT support teams and business units to allocate resources for resolution.
+   Role: Major Incident Manager
+   Application Service: Team Assignment Dashboard
+   Application: Collaboration Tool
+
+5. [Develop resolution plan]
+   Explanation: Develop a detailed incident report and resolution plan to guide resolution efforts.
+   Role: IT Operations
+   Application Service: Resolution Plan Form
+   Application: ITSM Platform
+
+6. [Communicate plan to stakeholders]
+   Explanation: Communicate the incident report and resolution plan to all relevant stakeholders to ensure transparency and coordination.
+   Role: Major Incident Manager
+   Application Service: Communication Dashboard
+   Application: Communication Platform
+
+7. [Execute resolution actions]
+   Explanation: Execute the resolution actions to restore services as per the plan.
+   Role: IT Operations
+   Application Service: Resolution Action Log
+   Application: ITSM Platform
+
+8. [Verify service restoration]
+   Explanation: Verify that services are restored successfully.
+   Role: IT Operations
+   Application Service: Verification Dashboard
+   Application: Monitoring Tool
+
+9. [Perform post-incident review]
+   Explanation: Conduct a review to identify lessons learned and produce the final incident report.
+   Role: Major Incident Manager
+   Application Service: Review Form
+   Application: Document Management
+
+10. [Close major incident]
+   Explanation: Formally close the incident, delivering the final incident report and resolution plan to consuming parties.
+   Role: Service Desk Agent
+   Application Service: Incident Closure Form
+   Application: ITSM Platform
+
+
+TRANSITIONS
+1&#8594;2  trigger received
+2&#8594;3  assessment complete
+3&#8594;4  major confirmed
+3&#8594;end  non-major incident
+4&#8594;5  team assembled
+5&#8594;6  plan developed
+6&#8594;7  plan communicated
+7&#8594;8  actions executed
+8&#8594;9  restoration successful
+8&#8594;5  restoration failed
+9&#8594;10  review completed
+10&#8594;end  incident closed</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>tier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">paid</td></tr><tr><td>generated_by</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pserp_flow_generator.py</td></tr><tr><td>generator_path</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pedro/capabilities/...pserp_flow_generator.py</td></tr><tr><td>run_at</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-06-23</td></tr><tr><td>model_code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ITSMB</td></tr><tr><td>view_type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">process_flow</td></tr><tr><td>announcement</td><td class="convertlinks no-margin" style="white-space:pre-wrap">no</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/n-372aa5cdf4561061c014cce53f27e66a.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-372aa5cdf4561061c014cce53f27e66a.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-1ba4484d67bec2dce7186681c84e5ae2.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-1ba4484d67bec2dce7186681c84e5ae2.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-a4b4770ec92dc4f3a304c313f2156424.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-a4b4770ec92dc4f3a304c313f2156424.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-8c2d8de6c6984a17cb5c77619ca8edc4.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-8c2d8de6c6984a17cb5c77619ca8edc4.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-38e0fdc6bedfd2cbd2f14146a11f0b1d.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-38e0fdc6bedfd2cbd2f14146a11f0b1d.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-49ed6fe6d946b6267d923437c56c6b35.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-49ed6fe6d946b6267d923437c56c6b35.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-fe7ae359cb9abd2dcff1114772e95ad0.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-fe7ae359cb9abd2dcff1114772e95ad0.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-37f779329c736d898d68b828e0b74468.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-37f779329c736d898d68b828e0b74468.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-b084b583806bc4df93e42071a668e860.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-b084b583806bc4df93e42071a668e860.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-944b128bc97864fac374b9dfd6399129.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-944b128bc97864fac374b9dfd6399129.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ae995f73607709d8d4e9938a2f594ace.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ae995f73607709d8d4e9938a2f594ace.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-169e91cfe6f9478a02fc52182896be2e.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-169e91cfe6f9478a02fc52182896be2e.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-74b150fbfbfb3f8f63d9992221adc97e.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-74b150fbfbfb3f8f63d9992221adc97e.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

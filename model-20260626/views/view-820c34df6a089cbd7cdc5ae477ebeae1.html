@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Manage incidents and service requests - Flow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Manage incidents and service requests - Flow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/view-820c34df6a089cbd7cdc5ae477ebeae1.png" alt="Manage incidents and service requests - Flow" usemap="#view-820c34df6a089cbd7cdc5ae477ebeae1map"/>
+			   <map name="view-820c34df6a089cbd7cdc5ae477ebeae1map">
+				          <area shape="rect" coords="569,926,689,981" href="../objects/n-dcbff6efc7d652017279af81e097bed0.html" target="element" >
+				          <area shape="rect" coords="452,810,572,865" href="../objects/n-67c4ef1bfeca87b37d0d22caf2d16153.html" target="element" >
+				          <area shape="rect" coords="685,461,805,516" href="../objects/n-ba5b2ae6932d461772db86d0b6009697.html" target="element" >
+				          <area shape="rect" coords="190,694,310,749" href="../objects/n-70102a3c4d10f3dfb5c0e4d079573cb6.html" target="element" >
+				          <area shape="rect" coords="446,578,566,633" href="../objects/n-b49784afe957d1c5a1272e23e0d9eff3.html" target="element" >
+				          <area shape="rect" coords="93,578,213,633" href="../objects/n-f261dfa5f8a6aa12273688c901428e12.html" target="element" >
+				          <area shape="rect" coords="440,461,560,516" href="../objects/n-6b977c0758e9040bd7196d1806c9be82.html" target="element" >
+				          <area shape="rect" coords="454,345,574,400" href="../objects/n-7d462df4832513f76607f9122a26cf50.html" target="element" >
+				          <area shape="rect" coords="561,229,681,284" href="../objects/n-e03e8ec9e66c579abed78dd4930dc055.html" target="element" >
+				          <area shape="rect" coords="561,112,681,167" href="../objects/n-c7e118079c8301b5cd4e03ad21a77301.html" target="element" >
+				          <area shape="rect" coords="615,1057,664,1082" href="../objects/n-efbcf2c205a16a026f67592483f34963.html" target="element" >
+				          <area shape="rect" coords="32,708,81,733" href="../objects/n-b23307045612f65ef7a63755f62ec833.html" target="element" >
+				          <area shape="rect" coords="607,10,656,35" href="../objects/n-76a8a065b094ff2edd88dbcc48866844.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">When a user reports a system outage, the IT support team initiates the Manage incidents and service requests process to address the issue promptly, resulting in a resolution report that details the actions taken and the system's restored functionality. This process is triggered by the incident report and involves coordination among various support staff to ensure a swift response. 
+
+In general terms, the Manage incidents and service requests process encompasses the identification, logging, and resolution of incidents while also handling user service requests. It follows a structured lifecycle that ensures incidents are prioritized and addressed according to their impact on service delivery, involving stakeholders such as IT support teams and end-users. This process operates within the Incident &amp; Service Request Management (ISRM) capability, which aims to maintain service continuity and user satisfaction.
+
+The existence of this process is critical for minimizing downtime and ensuring that user service requests are handled efficiently, thereby maintaining operational effectiveness. Without it, the organization would face prolonged service disruptions and decreased user productivity. The primary output, the resolution report, is delivered to the consuming parties, ensuring they are informed of the incident's status and resolution.
+
+PROCESS STEPS
+1. [Log and categorize request]
+   Explanation: User reports system outage or service request; Service Desk Agent logs ticket and categorizes as incident or service request.
+   Role: Service Desk Agent
+   Application Service: Ticket Form
+   Application: ITSM Platform
+
+2. [Prioritise using SLAs]
+   Explanation: Agent uses SLAs for incident prioritisation from Service Level Management and Service Portfolio Management to assign priority.
+   Role: Service Desk Agent
+   Application Service: SLA Dashboard
+   Application: ITSM Platform
+
+3. [Perform initial diagnosis]
+   Explanation: IT Support uses CMDB for incident resolution and release information for incidents to diagnose the incident.
+   Role: IT Support (L1)
+   Application Service: Diagnosis Dashboard
+   Application: ITSM Platform
+
+4. [Determine major incident]
+   Explanation: Incident Manager checks if incident meets major incident criteria.
+   Role: Incident Manager
+   Application Service: Major Incident Form
+   Application: ITSM Platform
+
+5. [Escalate major incident]
+   Explanation: Incident Manager triggers escalation using major incident criteria and escalation trigger to Manage major incidents process.
+   Role: Incident Manager
+   Application Service: Major Incident Form
+   Application: ITSM Platform
+
+6. [Resolve incident]
+   Explanation: IT Support resolves the incident using available tools and updates the ticket.
+   Role: IT Support
+   Application Service: Incident Resolution Form
+   Application: ITSM Platform
+
+7. [Create change request]
+   Explanation: If resolution requires a change, Incident Manager creates change request and outputs change requests from incidents to Change Management.
+   Role: Incident Manager
+   Application Service: Change Request Form
+   Application: ITSM Platform
+
+8. [Fulfill service request]
+   Explanation: For service requests, IT Support fulfills the user request according to catalog options.
+   Role: IT Support
+   Application Service: Service Request Form
+   Application: ITSM Platform
+
+9. [Verify incident resolution]
+   Explanation: Service Desk Agent verifies with end&#8209;user that the incident is resolved; if not satisfied, loops back to resolution.
+   Role: Service Desk Agent
+   Application Service: Verification Dashboard
+   Application: ITSM Platform
+
+10. [Close ticket and record trend info]
+   Explanation: Service Desk Agent closes the ticket, outputs incident trend information to Problem Management, and delivers the resolution report to the user.
+   Role: Service Desk Agent
+   Application Service: Closure Form
+   Application: ITSM Platform
+
+
+TRANSITIONS
+1&#8594;2  Categorised
+2&#8594;3  Incident
+2&#8594;8  Service request
+3&#8594;4  Diagnosed
+4&#8594;5  Major incident
+4&#8594;6  Normal incident
+5&#8594;end  Escalated
+6&#8594;7  Change required
+6&#8594;9  No change needed
+7&#8594;9  Change created
+8&#8594;10  Fulfilled
+9&#8594;10  Satisfied
+9&#8594;6  Not satisfied
+10&#8594;end  Closed</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>tier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">paid</td></tr><tr><td>generated_by</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pserp_flow_generator.py</td></tr><tr><td>generator_path</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pedro/capabilities/...pserp_flow_generator.py</td></tr><tr><td>run_at</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-06-23</td></tr><tr><td>model_code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ITSMB</td></tr><tr><td>view_type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">process_flow</td></tr><tr><td>announcement</td><td class="convertlinks no-margin" style="white-space:pre-wrap">no</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/n-76a8a065b094ff2edd88dbcc48866844.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-76a8a065b094ff2edd88dbcc48866844.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-b23307045612f65ef7a63755f62ec833.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-b23307045612f65ef7a63755f62ec833.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-efbcf2c205a16a026f67592483f34963.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-efbcf2c205a16a026f67592483f34963.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-c7e118079c8301b5cd4e03ad21a77301.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-c7e118079c8301b5cd4e03ad21a77301.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-e03e8ec9e66c579abed78dd4930dc055.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-e03e8ec9e66c579abed78dd4930dc055.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-7d462df4832513f76607f9122a26cf50.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-7d462df4832513f76607f9122a26cf50.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-6b977c0758e9040bd7196d1806c9be82.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-6b977c0758e9040bd7196d1806c9be82.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-f261dfa5f8a6aa12273688c901428e12.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-f261dfa5f8a6aa12273688c901428e12.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-b49784afe957d1c5a1272e23e0d9eff3.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-b49784afe957d1c5a1272e23e0d9eff3.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-70102a3c4d10f3dfb5c0e4d079573cb6.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-70102a3c4d10f3dfb5c0e4d079573cb6.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ba5b2ae6932d461772db86d0b6009697.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ba5b2ae6932d461772db86d0b6009697.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-67c4ef1bfeca87b37d0d22caf2d16153.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-67c4ef1bfeca87b37d0d22caf2d16153.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-dcbff6efc7d652017279af81e097bed0.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-dcbff6efc7d652017279af81e097bed0.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

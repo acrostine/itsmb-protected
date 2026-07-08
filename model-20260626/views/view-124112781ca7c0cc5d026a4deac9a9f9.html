@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Maintain the service portfolio - Flow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Maintain the service portfolio - Flow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/view-124112781ca7c0cc5d026a4deac9a9f9.png" alt="Maintain the service portfolio - Flow" usemap="#view-124112781ca7c0cc5d026a4deac9a9f9map"/>
+			   <map name="view-124112781ca7c0cc5d026a4deac9a9f9map">
+				          <area shape="rect" coords="132,1043,252,1098" href="../objects/n-e6442b72bdb6f85cbb407c190ba968e5.html" target="element" >
+				          <area shape="rect" coords="132,926,252,981" href="../objects/n-b8499a57afbbcf7283957ffbc8cbb4f5.html" target="element" >
+				          <area shape="rect" coords="132,810,252,865" href="../objects/n-964aa663928ecbaaa15793fe9e5b9178.html" target="element" >
+				          <area shape="rect" coords="132,694,252,749" href="../objects/n-aacd38d0db78cdfd4e2427c423d1f55d.html" target="element" >
+				          <area shape="rect" coords="132,578,252,633" href="../objects/n-ab0a5914fff5d3cd9c6678fdf0510b57.html" target="element" >
+				          <area shape="rect" coords="255,461,375,516" href="../objects/n-8e2631cfaea355acf48f85f866da3e8f.html" target="element" >
+				          <area shape="rect" coords="10,461,130,516" href="../objects/n-94a057c8eb09a22e6d59844b52095fb6.html" target="element" >
+				          <area shape="rect" coords="132,345,252,400" href="../objects/n-31870412eb309ffe0834cb9b672165d5.html" target="element" >
+				          <area shape="rect" coords="132,229,252,284" href="../objects/n-08539e86d7d985cca35024dfba25313b.html" target="element" >
+				          <area shape="rect" coords="132,112,252,167" href="../objects/n-cb2e25c4e3a6b08fc9a712de67a60880.html" target="element" >
+				          <area shape="rect" coords="178,1173,227,1198" href="../objects/n-cca1cf70188d530dfbac004d26d49986.html" target="element" >
+				          <area shape="rect" coords="178,10,227,35" href="../objects/n-bd607a37ef239f8cb57d3bf7831e73a3.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">A request for an update to the service portfolio triggers the Maintain the service portfolio process, initiated by a Service Portfolio Manager who assesses the current offerings and identifies necessary adjustments. The result is a refined service portfolio that aligns with organizational goals and stakeholder needs. 
+
+This process encompasses the ongoing management of services throughout their lifecycle, ensuring that the service portfolio remains relevant and effective. It involves evaluating existing services, incorporating new offerings, and retiring outdated ones, with decisions made collaboratively among stakeholders such as service owners and business leaders. The Maintain the service portfolio process is integral to the Service Portfolio Management (SPM) capability, which aims to optimize service delivery and alignment with business strategy.
+
+The existence of this process is crucial for maintaining an agile and responsive service portfolio that meets evolving market demands and customer expectations. Without it, the organization risks misalignment between services and business objectives, leading to inefficiencies and lost opportunities. The primary output of this process is the updated service portfolio, delivered to consuming parties who rely on it for informed decision-making.
+
+PROCESS STEPS
+1. [Receive update request]
+   Explanation: Service Portfolio Manager receives a request for an update to the service portfolio, which may include customer requirements for services from CRM.
+   Role: Service Portfolio Manager
+   Application Service: Request Intake Form
+   Application: ITSM Platform
+
+2. [Assess current portfolio]
+   Explanation: Evaluate the current service portfolio against business objectives, involving service owners and business leaders.
+   Role: Service Portfolio Manager
+   Application Service: Portfolio Assessment Report
+   Application: ITSM Platform
+
+3. [Identify adjustment type]
+   Explanation: Determine whether the required change is a new service, a modification, or a retirement, based on stakeholder input.
+   Role: Service Portfolio Manager
+   Application Service: Decision Support Dashboard
+   Application: ITSM Platform
+
+4. [Develop new service proposal]
+   Explanation: For new service additions, create a detailed proposal including feasibility and customer requirements from CRM.
+   Role: Service Owner
+   Application Service: Service Proposal Form
+   Application: ITSM Platform
+
+5. [Plan service modification/retirement]
+   Explanation: For modifications or retirements, outline the changes and impacts, consulting with business leaders.
+   Role: Service Portfolio Manager
+   Application Service: Change Plan Template
+   Application: ITSM Platform
+
+6. [Consolidate change plans]
+   Explanation: Review and combine all proposed changes into a comprehensive portfolio update plan.
+   Role: Service Portfolio Manager
+   Application Service: Portfolio Plan View
+   Application: ITSM Platform
+
+7. [Approve portfolio changes]
+   Explanation: Business leaders and stakeholders review and approve the update plan, ensuring alignment with strategy.
+   Role: Business Leader
+   Application Service: Approval Dashboard
+   Application: ITSM Platform
+
+8. [Update portfolio record]
+   Explanation: Record approved changes in the service portfolio repository, updating specifications and constraints.
+   Role: Service Portfolio Manager
+   Application Service: Portfolio Update Form
+   Application: ITSM Platform
+
+9. [Generate output deliverables]
+   Explanation: Produce SLAs for incident prioritisation, service portfolio and specifications, and current service portfolio constraints and capacity.
+   Role: Service Portfolio Manager
+   Application Service: Output Generator
+   Application: ITSM Platform
+
+10. [Communicate updated portfolio]
+   Explanation: Notify all consuming parties and stakeholders of the updated service portfolio and its outputs.
+   Role: Service Portfolio Manager
+   Application Service: Notification Dashboard
+   Application: ITSM Platform
+
+
+TRANSITIONS
+1&#8594;2  trigger received
+2&#8594;3  assessment complete
+3&#8594;4  new service required
+3&#8594;5  modification/retirement
+4&#8594;6  proposal developed
+5&#8594;6  plan completed
+6&#8594;7  plan consolidated
+7&#8594;8  approved
+7&#8594;6  revision required
+8&#8594;9  portfolio updated
+9&#8594;10  deliverables produced
+10&#8594;end  communication sent</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>tier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">paid</td></tr><tr><td>generated_by</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pserp_flow_generator.py</td></tr><tr><td>generator_path</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pedro/capabilities/...pserp_flow_generator.py</td></tr><tr><td>run_at</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-06-23</td></tr><tr><td>model_code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ITSMB</td></tr><tr><td>view_type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">process_flow</td></tr><tr><td>announcement</td><td class="convertlinks no-margin" style="white-space:pre-wrap">no</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/n-bd607a37ef239f8cb57d3bf7831e73a3.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-bd607a37ef239f8cb57d3bf7831e73a3.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-cca1cf70188d530dfbac004d26d49986.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-cca1cf70188d530dfbac004d26d49986.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-cb2e25c4e3a6b08fc9a712de67a60880.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-cb2e25c4e3a6b08fc9a712de67a60880.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-08539e86d7d985cca35024dfba25313b.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-08539e86d7d985cca35024dfba25313b.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-31870412eb309ffe0834cb9b672165d5.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-31870412eb309ffe0834cb9b672165d5.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-94a057c8eb09a22e6d59844b52095fb6.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-94a057c8eb09a22e6d59844b52095fb6.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-8e2631cfaea355acf48f85f866da3e8f.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-8e2631cfaea355acf48f85f866da3e8f.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ab0a5914fff5d3cd9c6678fdf0510b57.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ab0a5914fff5d3cd9c6678fdf0510b57.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-aacd38d0db78cdfd4e2427c423d1f55d.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-aacd38d0db78cdfd4e2427c423d1f55d.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-964aa663928ecbaaa15793fe9e5b9178.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-964aa663928ecbaaa15793fe9e5b9178.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-b8499a57afbbcf7283957ffbc8cbb4f5.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-b8499a57afbbcf7283957ffbc8cbb4f5.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-e6442b72bdb6f85cbb407c190ba968e5.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-e6442b72bdb6f85cbb407c190ba968e5.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

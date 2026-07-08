@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Maintain service catalogues - Flow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Maintain service catalogues - Flow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/view-1d9d83a72420dbc25b81de8656386a5d.png" alt="Maintain service catalogues - Flow" usemap="#view-1d9d83a72420dbc25b81de8656386a5dmap"/>
+			   <map name="view-1d9d83a72420dbc25b81de8656386a5dmap">
+				          <area shape="rect" coords="67,926,187,981" href="../objects/n-003309cc5ec3e6cc8e0ab051fdb059d2.html" target="element" >
+				          <area shape="rect" coords="67,810,187,865" href="../objects/n-dac8ea984772373c81c4ad098c26e90e.html" target="element" >
+				          <area shape="rect" coords="67,694,187,749" href="../objects/n-656dfabed3e3bd291731506f0a557a86.html" target="element" >
+				          <area shape="rect" coords="312,578,432,633" href="../objects/n-3fb3b7aaa98f74c3fe11638b65cf4156.html" target="element" >
+				          <area shape="rect" coords="67,578,187,633" href="../objects/n-18b610168ab300ca94b55828f7ef0095.html" target="element" >
+				          <area shape="rect" coords="74,461,194,516" href="../objects/n-71e4b2dc8b44d0cc4aab4d340c746f46.html" target="element" >
+				          <area shape="rect" coords="189,345,309,400" href="../objects/n-6300c9abcc84defe954f8466b1dee3cf.html" target="element" >
+				          <area shape="rect" coords="189,229,309,284" href="../objects/n-4d0717710ad4c07803c1c4d10f4e2fea.html" target="element" >
+				          <area shape="rect" coords="189,112,309,167" href="../objects/n-6f3274cf76249dbda55d911df5a510e9.html" target="element" >
+				          <area shape="rect" coords="113,1057,162,1082" href="../objects/n-ca25a830c0b5f688f1f6649e595f0937.html" target="element" >
+				          <area shape="rect" coords="235,10,284,35" href="../objects/n-f6d2d637f8e3c4de1de93893e90cfba3.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">A request from a business unit to update the service offerings triggers the Maintain service catalogues process, which is initiated by the Service Level Management (SLM) team. The result of this process is an updated service catalogue that reflects the current agreements on service quality with customers and suppliers. 
+
+The Maintain service catalogues process is responsible for ensuring that service catalogues are accurate and up-to-date, facilitating the definition and evaluation of service quality agreements. This process involves reviewing existing services, incorporating feedback from stakeholders, and making necessary adjustments to align with organizational goals. It operates within the broader Service Level Management (SLM) capability, which encompasses the management of service quality and performance.
+
+This process exists to provide clarity and transparency regarding the services offered, ultimately enhancing customer satisfaction and trust. Without it, inconsistencies in service offerings could lead to misunderstandings and degraded service quality, negatively impacting relationships with customers and suppliers. The primary output of this process is the updated service catalogue, which is delivered to consuming parties for their reference and use.
+
+PROCESS STEPS
+1. [Receive update request]
+   Explanation: Business unit submits a request to update service offerings; SLM team initiates the process.
+   Role: SLM Team
+   Application Service: Service Request Form
+   Application: ITSM Platform
+
+2. [Review service portfolio]
+   Explanation: Examine the service portfolio and specifications received from Service Portfolio Management to understand current offerings.
+   Role: SLM Manager
+   Application Service: Portfolio Review Dashboard
+   Application: Service Portfolio System
+
+3. [Assess change impact]
+   Explanation: Evaluate the significance of requested changes; if significant, proceed to feedback; else direct adjustment.
+   Role: SLM Manager
+   Application Service: Impact Assessment Form
+   Application: ITSM Platform
+
+4. [Gather stakeholder feedback]
+   Explanation: Collect input from customers and suppliers regarding service expectations and quality agreements.
+   Role: Quality Analyst
+   Application Service: Feedback Collection Tool
+   Application: Collaboration Platform
+
+5. [Adjust catalogue with feedback]
+   Explanation: Modify service catalogue entries based on gathered feedback and stakeholder input.
+   Role: Service Owner
+   Application Service: Catalogue Editor
+   Application: Service Catalogue Tool
+
+6. [Quick adjust catalogue]
+   Explanation: Make minor adjustments to service catalogue directly without extensive feedback.
+   Role: Service Owner
+   Application Service: Catalogue Editor
+   Application: Service Catalogue Tool
+
+7. [Review and approve catalogue]
+   Explanation: Review updated catalogue for accuracy and alignment; decide approval or request revision.
+   Role: SLM Manager
+   Application Service: Approval Dashboard
+   Application: ITSM Platform
+
+8. [Publish updated catalogue]
+   Explanation: Release the updated service catalogue to the organization and systems.
+   Role: SLM Manager
+   Application Service: Publishing Dashboard
+   Application: ITSM Platform
+
+9. [Deliver catalogue and notify]
+   Explanation: Deliver the service catalogue for customers to Customer Relationship Management and notify business unit of completion.
+   Role: SLM Team
+   Application Service: Integration Interface
+   Application: ITSM Platform
+
+
+TRANSITIONS
+1&#8594;2  Request received
+2&#8594;3  Specifications reviewed
+3&#8594;4  Significant change
+3&#8594;6  Minor change
+4&#8594;5  Feedback collected
+5&#8594;7  Adjustment complete
+6&#8594;7  Adjustment complete
+7&#8594;8  Approved
+7&#8594;5  Rejected
+8&#8594;9  Published
+9&#8594;end  Completed</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>tier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">paid</td></tr><tr><td>generated_by</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pserp_flow_generator.py</td></tr><tr><td>generator_path</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pedro/capabilities/...pserp_flow_generator.py</td></tr><tr><td>run_at</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-06-23</td></tr><tr><td>model_code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ITSMB</td></tr><tr><td>view_type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">process_flow</td></tr><tr><td>announcement</td><td class="convertlinks no-margin" style="white-space:pre-wrap">no</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/n-f6d2d637f8e3c4de1de93893e90cfba3.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-f6d2d637f8e3c4de1de93893e90cfba3.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ca25a830c0b5f688f1f6649e595f0937.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ca25a830c0b5f688f1f6649e595f0937.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-6f3274cf76249dbda55d911df5a510e9.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-6f3274cf76249dbda55d911df5a510e9.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-4d0717710ad4c07803c1c4d10f4e2fea.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-4d0717710ad4c07803c1c4d10f4e2fea.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-6300c9abcc84defe954f8466b1dee3cf.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-6300c9abcc84defe954f8466b1dee3cf.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-71e4b2dc8b44d0cc4aab4d340c746f46.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-71e4b2dc8b44d0cc4aab4d340c746f46.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-18b610168ab300ca94b55828f7ef0095.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-18b610168ab300ca94b55828f7ef0095.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-3fb3b7aaa98f74c3fe11638b65cf4156.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-3fb3b7aaa98f74c3fe11638b65cf4156.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-656dfabed3e3bd291731506f0a557a86.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-656dfabed3e3bd291731506f0a557a86.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-dac8ea984772373c81c4ad098c26e90e.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-dac8ea984772373c81c4ad098c26e90e.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-003309cc5ec3e6cc8e0ab051fdb059d2.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-003309cc5ec3e6cc8e0ab051fdb059d2.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

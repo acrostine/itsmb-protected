@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Monitor supplier performance - Flow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Monitor supplier performance - Flow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/view-aaba7febe410505161a83845f7769b7f.png" alt="Monitor supplier performance - Flow" usemap="#view-aaba7febe410505161a83845f7769b7fmap"/>
+			   <map name="view-aaba7febe410505161a83845f7769b7fmap">
+				          <area shape="rect" coords="65,1043,185,1098" href="../objects/n-665d79f07d39d0350bd3248bc3d7b262.html" target="element" >
+				          <area shape="rect" coords="65,926,185,981" href="../objects/n-b386f8ce4acd7b795fe2c34950ccdf6f.html" target="element" >
+				          <area shape="rect" coords="364,926,484,981" href="../objects/n-1219e4babf40a579d662a07d2d5cb0ce.html" target="element" >
+				          <area shape="rect" coords="65,810,185,865" href="../objects/n-7ead5a8b6c756816578396d3d411e9ca.html" target="element" >
+				          <area shape="rect" coords="10,694,130,749" href="../objects/n-ff74194b2ee8bad09e3447082121abe8.html" target="element" >
+				          <area shape="rect" coords="255,694,375,749" href="../objects/n-0b3ba5d4f935ac58cdea79e1f4881cf2.html" target="element" >
+				          <area shape="rect" coords="39,578,159,633" href="../objects/n-f66cd709519f325ea1e814a3fe5b5b35.html" target="element" >
+				          <area shape="rect" coords="39,461,159,516" href="../objects/n-a568b8bb5713cf36bac74ab2c80072e3.html" target="element" >
+				          <area shape="rect" coords="255,345,375,400" href="../objects/n-8a7d6025287a7060b1ef58e7fa575ecb.html" target="element" >
+				          <area shape="rect" coords="255,229,375,284" href="../objects/n-c79efe47788b0061a898c858f22a8798.html" target="element" >
+				          <area shape="rect" coords="362,112,482,167" href="../objects/n-00b623c035ebea595497c467b4fe90fd.html" target="element" >
+				          <area shape="rect" coords="111,1173,160,1198" href="../objects/n-7e4bcd142a118f68b2a571f939a2c0ca.html" target="element" >
+				          <area shape="rect" coords="408,10,457,35" href="../objects/n-f595cd17fba453e704872df3d0e571f8.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">A scheduled review within Supplier Relationship Management (SUPPM) triggers the Monitor supplier performance process, initiated by the Supplier Relationship Manager who assesses the performance metrics of key suppliers. The artefact resulting from this process includes a comprehensive performance report that highlights areas of compliance and potential improvement. 
+
+In general terms, the Monitor supplier performance process evaluates supplier effectiveness against established criteria, facilitating informed decision-making regarding supplier relationships. It encompasses the entire lifecycle of performance monitoring, including data collection, analysis, and reporting, ensuring that both internal and external stakeholders are engaged in the evaluation process. This process is integral to the Supplier Relationship Management capability, which aims to foster healthy supplier partnerships and optimize performance outcomes.
+
+This process exists to provide critical insights that enhance supplier collaboration and drive operational efficiency within the organization. Without it, the organization risks misalignment with supplier capabilities, leading to potential disruptions in service delivery and quality. The primary output, the performance report, is delivered to relevant stakeholders for further action and decision-making.
+
+PROCESS STEPS
+1. [Initiate scheduled review]
+   Explanation: The Supplier Relationship Manager receives the scheduled review trigger to start monitoring supplier performance.
+   Role: Supplier Relationship Manager
+   Application Service: Review Schedule
+   Application: Supplier Management System
+
+2. [Load evaluation criteria]
+   Explanation: The Supplier Relationship Manager loads OLAs and UAs for supplier evaluation to define assessment criteria.
+   Role: Supplier Relationship Manager
+   Application Service: Criteria Form
+   Application: Supplier Management System
+
+3. [Collect performance data]
+   Explanation: The Data Analyst gathers supplier performance metrics from monitoring sources.
+   Role: Data Analyst
+   Application Service: Performance Dashboard
+   Application: Monitoring Tool
+
+4. [Analyse against criteria]
+   Explanation: The Supplier Relationship Manager evaluates collected metrics against established criteria.
+   Role: Supplier Relationship Manager
+   Application Service: Analysis Dashboard
+   Application: BI Tool
+
+5. [Performance acceptable?]
+   Explanation: The Supplier Relationship Manager decides if performance meets standards.
+   Role: Supplier Relationship Manager
+   Application Service: Decision Form
+   Application: Manual
+
+6. [Create improvement plan]
+   Explanation: The Supplier Relationship Manager documents a corrective plan for underperforming suppliers.
+   Role: Supplier Relationship Manager
+   Application Service: Improvement Plan Form
+   Application: Supplier Management System
+
+7. [Generate performance report]
+   Explanation: The Reporting Specialist compiles the analysis into a comprehensive performance report highlighting compliance and improvement areas.
+   Role: Reporting Specialist
+   Application Service: Report Generator
+   Application: Document Management
+
+8. [Additional follow-up needed?]
+   Explanation: The Supplier Relationship Manager decides whether an extra review cycle is required.
+   Role: Supplier Relationship Manager
+   Application Service: Follow-up Checklist
+   Application: Manual
+
+9. [Schedule early review]
+   Explanation: The Supplier Relationship Manager sets an unscheduled review to re&#8209;monitor supplier performance.
+   Role: Supplier Relationship Manager
+   Application Service: Review Schedule
+   Application: Supplier Management System
+
+10. [Update supplier database]
+   Explanation: The Data Analyst updates the supplier database with performance results and ratings.
+   Role: Data Analyst
+   Application Service: Database Update Form
+   Application: Supplier Management System
+
+11. [Distribute results and info]
+   Explanation: The Supplier Relationship Manager sends the performance report to internal/external stakeholders and provides supplier information for delivery to Service Portfolio Management and supplier information for agreements to Service Level Management.
+   Role: Supplier Relationship Manager
+   Application Service: Distribution List
+   Application: Email System
+
+
+TRANSITIONS
+1&#8594;2  review triggered
+2&#8594;3  criteria loaded
+3&#8594;4  data collected
+4&#8594;5  analysis complete
+5&#8594;6  unacceptable
+5&#8594;7  acceptable
+6&#8594;3  remediation plan
+7&#8594;8  report generated
+8&#8594;9  follow-up needed
+8&#8594;10  no follow-up
+9&#8594;1  early review
+10&#8594;11  database updated
+11&#8594;end  process ends</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>tier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">paid</td></tr><tr><td>generated_by</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pserp_flow_generator.py</td></tr><tr><td>generator_path</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pedro/capabilities/...pserp_flow_generator.py</td></tr><tr><td>run_at</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-06-23</td></tr><tr><td>model_code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ITSMB</td></tr><tr><td>view_type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">process_flow</td></tr><tr><td>announcement</td><td class="convertlinks no-margin" style="white-space:pre-wrap">no</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/n-f595cd17fba453e704872df3d0e571f8.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-f595cd17fba453e704872df3d0e571f8.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-7e4bcd142a118f68b2a571f939a2c0ca.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-7e4bcd142a118f68b2a571f939a2c0ca.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-00b623c035ebea595497c467b4fe90fd.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-00b623c035ebea595497c467b4fe90fd.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-c79efe47788b0061a898c858f22a8798.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-c79efe47788b0061a898c858f22a8798.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-8a7d6025287a7060b1ef58e7fa575ecb.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-8a7d6025287a7060b1ef58e7fa575ecb.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-a568b8bb5713cf36bac74ab2c80072e3.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-a568b8bb5713cf36bac74ab2c80072e3.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-f66cd709519f325ea1e814a3fe5b5b35.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-f66cd709519f325ea1e814a3fe5b5b35.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-0b3ba5d4f935ac58cdea79e1f4881cf2.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-0b3ba5d4f935ac58cdea79e1f4881cf2.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-ff74194b2ee8bad09e3447082121abe8.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-ff74194b2ee8bad09e3447082121abe8.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-7ead5a8b6c756816578396d3d411e9ca.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-7ead5a8b6c756816578396d3d411e9ca.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-1219e4babf40a579d662a07d2d5cb0ce.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-1219e4babf40a579d662a07d2d5cb0ce.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-b386f8ce4acd7b795fe2c34950ccdf6f.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-b386f8ce4acd7b795fe2c34950ccdf6f.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-665d79f07d39d0350bd3248bc3d7b262.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-665d79f07d39d0350bd3248bc3d7b262.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

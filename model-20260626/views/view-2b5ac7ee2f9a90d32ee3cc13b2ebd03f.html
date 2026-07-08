@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Evaluate service availability and continuity - Flow</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Evaluate service availability and continuity - Flow</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/view-2b5ac7ee2f9a90d32ee3cc13b2ebd03f.png" alt="Evaluate service availability and continuity - Flow" usemap="#view-2b5ac7ee2f9a90d32ee3cc13b2ebd03fmap"/>
+			   <map name="view-2b5ac7ee2f9a90d32ee3cc13b2ebd03fmap">
+				          <area shape="rect" coords="339,1275,459,1330" href="../objects/n-97f3e066d8044ef4aab00e267eb4a857.html" target="element" >
+				          <area shape="rect" coords="339,1159,459,1214" href="../objects/n-6e08edfd817e2c297c66777848e9db09.html" target="element" >
+				          <area shape="rect" coords="232,1043,352,1098" href="../objects/n-1142e982989a07c13b9f4f6787e77847.html" target="element" >
+				          <area shape="rect" coords="339,926,459,981" href="../objects/n-00ba7da7d716d1298de69a6699bc483f.html" target="element" >
+				          <area shape="rect" coords="232,810,352,865" href="../objects/n-fc299a9598cb8582d520ca30ed205b46.html" target="element" >
+				          <area shape="rect" coords="31,694,151,749" href="../objects/n-bd4a34d2106d4be021bb7b0e8adb706a.html" target="element" >
+				          <area shape="rect" coords="232,578,352,633" href="../objects/n-05bb052a495c30a24a64f9c91e199414.html" target="element" >
+				          <area shape="rect" coords="339,461,459,516" href="../objects/n-b11eff8779332e3dd9b9262da73b5b58.html" target="element" >
+				          <area shape="rect" coords="339,345,459,400" href="../objects/n-5178b975ba8a96bc27f6d98a3a9dc9a0.html" target="element" >
+				          <area shape="rect" coords="339,229,459,284" href="../objects/n-dd80348dd323016b94dd304bd5c0ed85.html" target="element" >
+				          <area shape="rect" coords="339,112,459,167" href="../objects/n-f08223307b3dbf62ea68996c76e4abe7.html" target="element" >
+				          <area shape="rect" coords="385,1406,434,1431" href="../objects/n-dcc7bca79ac7efe20a9992518ceb3c11.html" target="element" >
+				          <area shape="rect" coords="385,10,434,35" href="../objects/n-c4f2ebd9cd2a25bd65130584f31ba08d.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">A scheduled review within Service Availability &amp; Continuity Management (SACM) triggers the process to Evaluate service availability and continuity, where the service manager assesses current service performance against established targets, resulting in a comprehensive report on service health and continuity measures. 
+
+This process systematically evaluates the effectiveness of service availability and continuity strategies, ensuring that the organization can meet its service targets. It involves analyzing service performance data, making decisions on necessary adjustments, and engaging stakeholders to align on service delivery expectations, all within the broader context of the Service Availability &amp; Continuity Management capability.
+
+The existence of this process is crucial for maintaining operational resilience and ensuring that service disruptions are minimized. Without it, the organization risks failing to meet service commitments, leading to customer dissatisfaction and potential financial losses. The primary output is the service availability and continuity report, which is delivered to consuming parties for informed decision-making.
+
+PROCESS STEPS
+1. [Receive plan status]
+   Explanation: The Service Manager receives the implemented availability measures and plan status from the preceding maintain process.
+   Role: Service Manager
+   Application Service: Status Report
+   Application: Monitoring Tool
+
+2. [Analyze performance data]
+   Explanation: The Service Manager reviews current service performance against established targets using performance dashboards.
+   Role: Service Manager
+   Application Service: Performance Dashboard
+   Application: Monitoring Tool
+
+3. [Evaluate continuity effectiveness]
+   Explanation: The Service Manager assesses the effectiveness of continuity strategies and identifies gaps.
+   Role: Service Manager
+   Application Service: Continuity Assessment Form
+   Application: ITSM Platform
+
+4. [Decision: targets met?]
+   Explanation: The Service Manager determines if performance targets are met based on the analysis.
+   Role: Service Manager
+   Application Service: Decision Dashboard
+   Application: ITSM Platform
+
+5. [Define adjustments required]
+   Explanation: If targets are not met, the Service Manager defines necessary adjustments and records them as potential changes.
+   Role: Service Manager
+   Application Service: Change Request Form
+   Application: ITSM Platform
+
+6. [Align with stakeholders]
+   Explanation: The Service Manager engages stakeholders to review adjustments and align on service delivery expectations.
+   Role: Service Manager
+   Application Service: Meeting/Communication
+   Application: Manual
+
+7. [Decision: alignment achieved?]
+   Explanation: The Service Manager confirms whether stakeholder alignment has been reached.
+   Role: Service Manager
+   Application Service: Alignment Checklist
+   Application: ITSM Platform
+
+8. [Generate availability report]
+   Explanation: The Service Manager consolidates findings and alignment outcomes into the service availability and continuity report.
+   Role: Service Manager
+   Application Service: Report Generator
+   Application: Reporting Tool
+
+9. [Extract service availability data]
+   Explanation: The Service Manager extracts service availability data from the report for delivery to Service Reporting Management.
+   Role: Service Manager
+   Application Service: Report Generator
+   Application: Reporting Tool
+
+10. [Validate report completeness]
+   Explanation: The Service Manager checks that the service availability and continuity report contains all required information.
+   Role: Service Manager
+   Application Service: Validation Checklist
+   Application: ITSM Platform
+
+11. [Distribute final report]
+   Explanation: The Service Manager distributes the final service availability and continuity report to consuming parties.
+   Role: Service Manager
+   Application Service: Report Distribution
+   Application: Document Management
+
+
+TRANSITIONS
+1&#8594;2  implemented status received
+2&#8594;3  performance data analyzed
+3&#8594;4  gaps identified
+4&#8594;5  targets not met
+4&#8594;8  targets met
+5&#8594;6  adjustments defined
+6&#8594;7  stakeholder input obtained
+7&#8594;5  alignment failed
+7&#8594;8  alignment achieved
+8&#8594;9  report generated
+9&#8594;10  data extracted
+10&#8594;8  incomplete report
+10&#8594;11  complete report
+11&#8594;end  report distributed</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>tier</td><td class="convertlinks no-margin" style="white-space:pre-wrap">paid</td></tr><tr><td>generated_by</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pserp_flow_generator.py</td></tr><tr><td>generator_path</td><td class="convertlinks no-margin" style="white-space:pre-wrap">pedro/capabilities/...pserp_flow_generator.py</td></tr><tr><td>run_at</td><td class="convertlinks no-margin" style="white-space:pre-wrap">2026-06-23</td></tr><tr><td>model_code</td><td class="convertlinks no-margin" style="white-space:pre-wrap">ITSMB</td></tr><tr><td>view_type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">process_flow</td></tr><tr><td>announcement</td><td class="convertlinks no-margin" style="white-space:pre-wrap">no</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/n-c4f2ebd9cd2a25bd65130584f31ba08d.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-c4f2ebd9cd2a25bd65130584f31ba08d.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-dcc7bca79ac7efe20a9992518ceb3c11.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-dcc7bca79ac7efe20a9992518ceb3c11.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-f08223307b3dbf62ea68996c76e4abe7.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-f08223307b3dbf62ea68996c76e4abe7.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-dd80348dd323016b94dd304bd5c0ed85.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-dd80348dd323016b94dd304bd5c0ed85.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-5178b975ba8a96bc27f6d98a3a9dc9a0.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-5178b975ba8a96bc27f6d98a3a9dc9a0.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-b11eff8779332e3dd9b9262da73b5b58.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-b11eff8779332e3dd9b9262da73b5b58.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-05bb052a495c30a24a64f9c91e199414.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-05bb052a495c30a24a64f9c91e199414.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-bd4a34d2106d4be021bb7b0e8adb706a.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-bd4a34d2106d4be021bb7b0e8adb706a.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-fc299a9598cb8582d520ca30ed205b46.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-fc299a9598cb8582d520ca30ed205b46.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-00ba7da7d716d1298de69a6699bc483f.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-00ba7da7d716d1298de69a6699bc483f.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-1142e982989a07c13b9f4f6787e77847.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-1142e982989a07c13b9f4f6787e77847.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-6e08edfd817e2c297c66777848e9db09.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-6e08edfd817e2c297c66777848e9db09.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+									        <tr>
+									           <td> <a href="../objects/n-97f3e066d8044ef4aab00e267eb4a857.html" target="element">  </a> </td>
+									           <td> <a href="../objects/n-97f3e066d8044ef4aab00e267eb4a857.html" target="element" class="i18n-elementtype-DiagramModelNote"> </a> </td>
+									        </tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
